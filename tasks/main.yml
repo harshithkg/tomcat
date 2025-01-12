@@ -1,0 +1,6 @@
+---
+# tasks file for sample
+- name: Installing tomcat
+  apt: 
+    name: tomcat10
+    state: present 
